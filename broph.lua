@@ -11,18 +11,17 @@ function createMap()
 	atm1 = createObject(2942 , -2246, 2370, 5)
 end
 
-function hackATM()
-	local playerx, playery, playerz = getElementPosition(getRootElement())
+function hackATM(player, atm)
+	local playerx, playery, playerz = getElementPosition(player)
 	local atmx, atmy, atmz = getElementPosition(atm1)
-
-	if (playerx <= atmx + 5 and playerx <= atmx - 5) then
-			outputChatBox("Hackable!")
-			givePlayerMoney(getRootElement(), 500)
+	local win = math.random(500, 2500)
+	if (playerx < atmx + 2.5 and playerx > atmx - 2.5 and playery < atmy + 2.5 and playery > atmy - 2.5) then
+			outputChatBox("Hacked and earned: "..win.."$", player)
+			givePlayerMoney(player, win)
 		else
-			outputChatBox("not Hackable!!!")
+			outputChatBox("no ATM nearby", player)
 	end
 end
-
 
 addEventHandler("onResourceStart", root, createMap)
 addEventHandler("onPlayerJoin", root, spawn)
