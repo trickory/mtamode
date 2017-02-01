@@ -1,0 +1,20 @@
+<map mod="deathmatch" version="1.0" time="13:00" weather="0">
+
+	<meta>
+		<author>BrophY</author>
+		<version>1.0</version>
+	</meta>
+
+	<welcome message="Fear the Magicbeans!" />
+	<welcome message="Fear IJs's underpants, they are radioactive!" />
+	<welcome message="This map is sponsored by Bernie's Healthfarm" />
+	<welcome message="Remember to drop by Pete's Place!" />
+	<welcome message="BiffCo Construction are now hiring!" />
+	<welcome message="This map was payed for by Bastage Ltd" />
+
+
+	<vehicle id="Sanchez" model="468" posX="-2230" posY="2352" posZ="5" rotX="0.20944213867188" rotY="0.05963134765625" rotZ="189.92041015625" color="5 46 0 0"/>
+  <vehicle id="Banshee" model="429" posX="-2251" posY="2342" posZ="5" rotX="0" rotY="0" rotZ="0"/>
+
+
+</map>
