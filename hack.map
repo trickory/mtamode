@@ -1,0 +1,25 @@
+<map mod="deathmatch" version="1.0" time="13:00" weather="0">
+
+	<meta>
+		<author>BrophY</author>
+		<version>1.0</version>
+	</meta>
+
+	<welcome message="Fear the Magicbeans!" />
+	<welcome message="Fear IJs's underpants, they are radioactive!" />
+	<welcome message="This map is sponsored by Bernie's Healthfarm" />
+	<welcome message="Remember to drop by Pete's Place!" />
+	<welcome message="BiffCo Construction are now hiring!" />
+	<welcome message="This map was payed for by Bastage Ltd" />
+
+
+	<vehicle id="Sanchez" model="468" posX="-2230" posY="2352" posZ="5" rotX="0.20944213867188" rotY="0.05963134765625" rotZ="189.92041015625" color="5 46 0 0"/>
+  <vehicle id="Banshee" model="429" posX="-2251" posY="2342" posZ="5" rotX="0" rotY="0" rotZ="0"/>
+	<object id="atm1" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2243.6001" posY="2368.45" posZ="4.6" rotX="0" rotY="0" rotZ="222"></object>
+	<object id="atm2" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2438.6001" posY="2320.3401" posZ="4.6" rotX="0" rotY="0" rotZ="180"></object>
+	<object id="atm3" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2492.55" posY="2358.8" posZ="9.7" rotX="0" rotY="0" rotZ="90"></object>
+	<marker id="atm_mark1" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2243.5991" posY="2368.4402" posZ="3.9" rotX="0" rotY="0" rotZ="0"></marker>
+	<marker id="atm_mark2" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2438.6001" posY="2320.3401" posZ="3.9" rotX="0" rotY="0" rotZ="0"></marker>
+	<marker id="atm_mark3" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2492.5" posY="2358.8" posZ="9.1" rotX="0" rotY="0" rotZ="0"></marker>
+
+</map>
