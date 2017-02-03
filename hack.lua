@@ -27,7 +27,7 @@ function hackATM(player, atm)
 			outputChatBox("Hacked and earned: "..win.."$", player)                    -- chatbox output of money earned to player only
 			givePlayerMoney(player, win)                                              -- gives won amount to player
 			setTimer(                                                                 --[[ starts a timer to run for 15 seconds and sets timer to false afterwards ]]--
-      function()
+      			function()
 				outputChatBox("ATM's hackable again!")
 				timer = false;
 			end ,15000,1)
