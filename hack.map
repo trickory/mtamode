@@ -5,14 +5,33 @@
 		<version>0.0.1</version>
 	</meta>
 
+<!--vehicles-->
+<vehicle id="Sanchez" model="468" posX="-2231.5" posY="2351" posZ="5" rotX="-0.20944213867188" rotY="5.963134765625" rotZ="130" color="0 0 0 0"/>
+<vehicle id="Banshee" model="429" posX="-2251" posY="2342" posZ="5" rotX="0" rotY="0" rotZ="55" color="0 0 0 0"/>
 
-	<vehicle id="Sanchez" model="468" posX="-2230" posY="2352" posZ="5" rotX="0.20944213867188" rotY="0.05963134765625" rotZ="189.92041015625" color="5 46 0 0"/>
-  <vehicle id="Banshee" model="429" posX="-2251" posY="2342" posZ="5" rotX="0" rotY="0" rotZ="0"/>
-	<object id="atm1" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2243.6001" posY="2368.45" posZ="4.6" rotX="0" rotY="0" rotZ="222"></object>
-	<object id="atm2" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2438.6001" posY="2320.3401" posZ="4.6" rotX="0" rotY="0" rotZ="180"></object>
-	<object id="atm3" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2492.55" posY="2358.8" posZ="9.7" rotX="0" rotY="0" rotZ="90"></object>
-	<marker id="atm_mark1" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2243.5991" posY="2368.4402" posZ="3.9" rotX="0" rotY="0" rotZ="0"></marker>
-	<marker id="atm_mark2" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2438.6001" posY="2320.3401" posZ="3.9" rotX="0" rotY="0" rotZ="0"></marker>
-	<marker id="atm_mark3" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2492.5" posY="2358.8" posZ="9.1" rotX="0" rotY="0" rotZ="0"></marker>
+<!--atm's-->
+<object id="atm1" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2243.6001" posY="2368.45" posZ="4.6" rotX="0" rotY="0" rotZ="222"></object>
+<object id="atm2" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2438.6001" posY="2320.3401" posZ="4.6" rotX="0" rotY="0" rotZ="180"></object>
+<object id="atm3" breakable="true" interior="0" alpha="255" model="2942" doublesided="false" scale="1" dimension="0" posX="-2492.55" posY="2358.8" posZ="9.7" rotX="0" rotY="0" rotZ="90"></object>
+<!--and their markers-->
+<marker id="atm_mark1" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2243.5991" posY="2368.4402" posZ="3.9" rotX="0" rotY="0" rotZ="0"></marker>
+<marker id="atm_mark2" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2438.6001" posY="2320.3401" posZ="3.9" rotX="0" rotY="0" rotZ="0"></marker>
+<marker id="atm_mark3" type="cylinder" color="#7F7F7F15" size="2.5" interior="0" dimension="0" alpha="255" posX="-2492.5" posY="2358.8" posZ="9.1" rotX="0" rotY="0" rotZ="0"></marker>
+
+<!--1337 trashbins-->
+<object id="trash" breakable="true" interior="0" collisions="true" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="-2398.1001" posY="2425.8999" posZ="10.4" rotX="0" rotY="0" rotZ="180"></object>
+<object id="trash" breakable="true" interior="0" collisions="true" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="-2415.0996" posY="2427.9004" posZ="12.1" rotX="0" rotY="0" rotZ="190"></object>
+<object id="trash" breakable="true" interior="0" collisions="true" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="-2486.2002" posY="2435.2998" posZ="16" rotX="0" rotY="0" rotZ="25"></object>
+<object id="trash" breakable="true" interior="0" collisions="true" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="-2430.0996" posY="2439.7002" posZ="13.1" rotX="0" rotY="0" rotZ="0"></object>
+<object id="trash" breakable="true" interior="0" collisions="true" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="-2355.8" posY="2417.5" posZ="6.8" rotX="0" rotY="0" rotZ="0"></object>
+<object id="trash" breakable="true" interior="0" collisions="true" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="-2396.3994" posY="2437.7002" posZ="10.5" rotX="0" rotY="0" rotZ="0"></object>
+
+<!--networks-->
+<radararea id="net" posX="-2355.8000488281" posY="2417.5" sizeX="31" sizeY="33"/>
+<radararea id="net" posX="-2396.3994140625" posY="2437.7001953125" sizeX="45" sizeY="35" color="#660066"/>
+<radararea id="net" posX="-2433.099609375" posY="2439.7001953125" sizeX="39" sizeY="35" color="#0066ff"/>
+<radararea id="net" posX="-2486.2001953125" posY="2435.2998046875" sizeX="45" sizeY="35" color="#DDDDDD"/>
+<radararea id="net" posX="-2408.399609375" posY="2427.900390625" sizeX="42" sizeY="-35"/>
+<radararea id="net" posX="-2408.1000976563" posY="2425.8999023438" sizeX="-45" sizeY="-35" color="#FFFF00"/>
 
 </map>
