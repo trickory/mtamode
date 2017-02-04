@@ -21,11 +21,19 @@ function hackATM(player, atm)
     local pos1, pos2 = playerx < posx + size, playerx > posx - size
     local pos3, pos4 = playery < posy + size, playery > posy - size
 
+<<<<<<< HEAD
 		if (pos1 and pos2 and pos3 and pos4 and timer == false) then
 			outputChatBox("Hacked and earned: "..win.."$", player)
 			givePlayerMoney(player, win)
 
 			setTimer(function()
+=======
+		if (pos1 and pos2 and pos3 and pos4 and timer == false) then                -- if comparisons are true and timer isnt running, proceed
+			outputChatBox("Hacked and earned: "..win.."$", player)                    -- chatbox output of money earned to player only
+			givePlayerMoney(player, win)                                              -- gives won amount to player
+			setTimer(                                                                 --[[ starts a timer to run for 15 seconds and sets timer to false afterwards ]]--
+      			function()
+>>>>>>> 591609a5b9aef38eb03914bdb0265bdb5ccc6de8
 				outputChatBox("ATM's hackable again!")
 				timer = false;
 			end ,15000,1)
