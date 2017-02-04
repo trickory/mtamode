@@ -4,5 +4,7 @@
 	<include resource="spawnmanager" />
 	
 	<map src="hack.map" />
-	<script src="hack.lua"/>
+	<script src="hack.lua" type="server"/>
+	<script src="hack_c.lua" type="client"/>
+
 </meta>
